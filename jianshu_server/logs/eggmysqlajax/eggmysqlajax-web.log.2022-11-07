@@ -1,0 +1,341 @@
+2022-11-02 10:20:58,993 ERROR 17804 [-/::1/-/7ms GET /follow?112] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:45:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"https://getman.cn","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17804
+hostname: ZUORUI
+
+2022-11-02 10:21:35,432 ERROR 17804 [-/::1/-/3ms GET /follow] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:45:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"https://getman.cn","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17804
+hostname: ZUORUI
+
+2022-11-02 10:22:25,407 ERROR 17536 [-/::1/-/7ms GET /follow?112] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:46:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"https://getman.cn","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17536
+hostname: ZUORUI
+
+2022-11-02 15:29:03,642 ERROR 11028 [-/127.0.0.1/-/6ms GET /follow?status=0&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:46:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11028
+hostname: ZUORUI
+
+2022-11-03 10:49:14,549 ERROR 2616 [-/127.0.0.1/-/12ms POST /getall.do] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 2616
+hostname: DESKTOP-A3915B5
+
+2022-11-03 10:49:15,816 ERROR 2616 [-/127.0.0.1/-/2ms POST /getall.do] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 2616
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:01:34,816 ERROR 10820 [-/127.0.0.1/-/64ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:01:39,324 ERROR 10820 [-/127.0.0.1/-/7ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:03:45,757 ERROR 10820 [-/127.0.0.1/-/5ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:04:48,977 ERROR 10820 [-/127.0.0.1/-/5ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+
+<<<<<<< HEAD
+2022-11-05 16:52:34,304 ERROR 15816 [-/127.0.0.1/-/4ms GET /follow?status=1&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+
+2022-11-05 16:52:41,693 ERROR 15816 [-/127.0.0.1/-/1ms GET /follow?status=1&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+
+2022-11-05 16:52:47,962 ERROR 15816 [-/127.0.0.1/-/2ms GET /follow?status=1&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+
+2022-11-05 16:53:02,304 ERROR 15816 [-/127.0.0.1/-/1ms GET /follow?status=1&follower=4&user=2] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+=======
+2022-11-04 17:41:02,824 ERROR 12704 [-/127.0.0.1/-/19ms GET /follow?status=1&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:46:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\admin\OneDrive\桌面\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 12704
+hostname: DESKTOP-EKKF5C0
+>>>>>>> 2b2e653ce590d12dd43be5554e7f66d0a436be0c
+

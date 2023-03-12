@@ -1,0 +1,306 @@
+2023-01-12 19:10:05,929 ERROR 20452 [-/127.0.0.1/-/278ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:17,773 ERROR 20452 [-/127.0.0.1/-/10ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:20,769 ERROR 20452 [-/127.0.0.1/-/3ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:22,092 ERROR 20452 [-/127.0.0.1/-/4ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'on clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user inner join follow on uid = user_id where follower_id ='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'on clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user inner join follow on uid = user_id where follower_id ='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:30,378 ERROR 20452 [-/127.0.0.1/-/2ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:11:40,727 ERROR 20452 [-/127.0.0.1/-/3ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:13:28,479 ERROR 20452 [-/127.0.0.1/-/3ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:13:33,205 ERROR 20452 [-/127.0.0.1/-/2ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:13:35,774 ERROR 20452 [-/127.0.0.1/-/8ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+

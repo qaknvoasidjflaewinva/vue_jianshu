@@ -1,0 +1,1446 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+2022-10-31 22:50:29,694 ERROR 25916 [-/127.0.0.1/-/16ms POST /getall.do] nodejs.ReferenceError: id is not defined
+    at getallController.getAll (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:16:18)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 25916
+hostname: DESKTOP-A3915B5
+
+2022-10-31 22:57:31,607 ERROR 25916 [-/127.0.0.1/-/3ms POST /getall.do] nodejs.ReferenceError: id is not defined
+    at getallController.getAll (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:16:18)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 25916
+hostname: DESKTOP-A3915B5
+
+2022-10-31 23:07:07,471 ERROR 25140 [-/127.0.0.1/-/69ms POST /getall.do] nodejs.ReferenceError: id is not defined
+    at getallController.getAll (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:16:18)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:36:12
+
+pid: 25140
+hostname: DESKTOP-A3915B5
+
+2022-10-31 23:08:52,301 ERROR 25140 [-/127.0.0.1/-/1ms POST /getall.do] nodejs.ReferenceError: id is not defined
+    at getallController.getAll (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:16:18)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:36:12
+
+pid: 25140
+hostname: DESKTOP-A3915B5
+
+2022-10-31 23:14:20,080 ERROR 13804 [-/127.0.0.1/-/82ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select  * from buycar where userid=1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select  * from buycar where userid=1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 13804
+hostname: DESKTOP-A3915B5
+
+2022-10-31 23:18:38,531 ERROR 25800 [-/127.0.0.1/-/73ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from buycar where userid=1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from buycar where userid=1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 25800
+hostname: DESKTOP-A3915B5
+
+2022-11-01 09:39:28,370 ERROR 1340 [-/127.0.0.1/-/57ms POST /getall.do] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'jianshu.buycar' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from buycar where id=2
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'jianshu.buycar' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "select * from buycar where id=2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 1340
+hostname: DESKTOP-A3915B5
+
+2022-11-01 11:27:10,418 ERROR 4188 [-/127.0.0.1/-/50ms POST /updateimg.do] nodejs.ReferenceError: path is not defined
+    at AddressService.updateimg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\service\getService.js:13:13)
+    at getallController.updateimg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:24:46)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4188
+hostname: DESKTOP-A3915B5
+
+2022-11-01 11:30:54,300 ERROR 5228 [-/127.0.0.1/-/40ms POST /updateimg.do] nodejs.ReferenceError: path is not defined
+    at AddressService.updateimg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\service\getService.js:13:13)
+    at getallController.updateImg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:24:46)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5228
+hostname: DESKTOP-A3915B5
+
+2022-11-01 11:33:34,674 ERROR 11396 [-/127.0.0.1/-/36ms POST /updateimg.do] nodejs.ReferenceError: fs is not defined
+    at AddressService.updateimg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\service\getService.js:15:4)
+    at getallController.updateImg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:24:46)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11396
+hostname: DESKTOP-A3915B5
+
+2022-11-01 11:34:24,713 ERROR 15756 [-/127.0.0.1/-/40ms POST /updateimg.do] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\联想\AppData\Local\Temp\egg-multipart-tmp\eggmysqlajax\2022\11\01\11\426786de-89b5-4b7f-b81d-9737a28f412a.png' -> 'C:\Users\联想\Desktop\project\jianshu\jianshu_server\app../public/headimg/1667273664706xx.png'
+    at Object.copyFileSync (node:fs:2852:3)
+    at AddressService.updateimg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\service\getService.js:16:13)
+    at getallController.updateImg (C:\Users\联想\Desktop\project\jianshu\jianshu_server\app\controller\getallController.js:24:46)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\@eggjs\router\lib\router.js:186:18
+errno: -4058
+syscall: "copyfile"
+code: "ENOENT"
+path: "C:\\Users\\联想\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggmysqlajax\\2022\\11\\01\\11\\426786de-89b5-4b7f-b81d-9737a28f412a.png"
+dest: "C:\\Users\\联想\\Desktop\\project\\jianshu\\jianshu_server\\app../public/headimg/1667273664706xx.png"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ENOENTError"
+pid: 15756
+hostname: DESKTOP-A3915B5
+
+2022-11-01 13:34:26,722 ERROR 13792 nodejs.ClusterClientNoResponseError: client no response in 1202249ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+=======
+2022-10-31 11:30:21,500 ERROR 160 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+2022-11-02 12:45:58,117 ERROR 14936 nodejs.ClusterClientNoResponseError: client no response in 2556263ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+>>>>>>> b5c97aae442980b5bcf75baf9bba8a05f7a0ef80
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 13792
+hostname: DESKTOP-A3915B5
+
+<<<<<<< HEAD
+2022-11-01 17:20:06,381 ERROR 22780 [-/127.0.0.1/-/27ms GET /deleteuser.do?params[id]=3] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: delete from user where id=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'id' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "delete from user where id=NULL"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 22780
+hostname: DESKTOP-A3915B5
+
+2022-11-01 17:20:33,204 ERROR 22780 [-/127.0.0.1/-/5ms GET /deleteuser.do?params[id]=3] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: delete from user where id=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'id' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "delete from user where id=NULL"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 22780
+hostname: DESKTOP-A3915B5
+
+2022-11-02 13:32:18,780 ERROR 3632 nodejs.ClusterClientNoResponseError: client no response in 777306ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3632
+hostname: DESKTOP-A3915B5
+
+2022-11-02 18:25:39,726 ERROR 3632 nodejs.ClusterClientNoResponseError: client no response in 3072433ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3632
+hostname: DESKTOP-A3915B5
+
+2022-11-02 18:59:38,627 ERROR 3632 nodejs.ClusterClientNoResponseError: client no response in 96945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3632
+hostname: DESKTOP-A3915B5
+
+<<<<<<< HEAD
+2022-11-02 20:41:54,780 ERROR 3632 nodejs.ClusterClientNoResponseError: client no response in 1953334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3632
+hostname: DESKTOP-A3915B5
+
+2022-11-03 10:49:14,538 ERROR 2616 [-/127.0.0.1/-/12ms POST /getall.do] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 2616
+hostname: DESKTOP-A3915B5
+
+2022-11-03 10:49:15,802 ERROR 2616 [-/127.0.0.1/-/2ms POST /getall.do] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', `__v_isRef` = true, `_rawValue` = 3, `_value` = 3' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where uid=`__v_isShallow` = false, `__v_isRef` = true, `_rawValue` = 3, `_value` = 3"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 2616
+hostname: DESKTOP-A3915B5
+
+2022-11-03 12:20:52,659 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 779748ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11160
+hostname: DESKTOP-A3915B5
+
+2022-11-03 13:30:06,614 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 1432623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11160
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:01:34,807 ERROR 10820 [-/127.0.0.1/-/64ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:01:39,314 ERROR 10820 [-/127.0.0.1/-/7ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:03:45,747 ERROR 10820 [-/127.0.0.1/-/5ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+
+2022-11-03 14:04:48,965 ERROR 10820 [-/127.0.0.1/-/5ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * from user INNER JOIN follow on uid = follower_id WHERE user_id = userid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10820
+hostname: DESKTOP-A3915B5
+=======
+2022-11-03 10:21:51,721 ERROR 20464 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+2022-11-02 11:45:59,140 ERROR 4988 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 4d573d0c4e5663be46ef0c0efa9c6c94cf7751c6
+=======
+2022-11-02 12:58:38,832 ERROR 14936 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 776810952d521f5110d209ced2e07d2c62590523
+>>>>>>> b5c97aae442980b5bcf75baf9bba8a05f7a0ef80
+=======
+2022-11-08 00:15:57,454 ERROR 14156 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 2b2e653ce590d12dd43be5554e7f66d0a436be0c
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14156
+hostname: DESKTOP-EKKF5C0
+
+<<<<<<< HEAD
+2022-11-02 14:45:42,149 ERROR 4988 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+pid: 160
+hostname: ZUORUI
+
+2022-10-31 11:30:54,945 ERROR 160 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+pid: 14936
+hostname: DESKTOP-8389VJN
+
+2022-11-02 14:24:55,222 ERROR 14936 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 776810952d521f5110d209ced2e07d2c62590523
+>>>>>>> b5c97aae442980b5bcf75baf9bba8a05f7a0ef80
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+<<<<<<< HEAD
+pid: 4988
+hostname: DESKTOP-EKKF5C0
+
+2022-11-02 16:10:44,823 ERROR 4988 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+<<<<<<< HEAD
+pid: 160
+hostname: ZUORUI
+
+2022-10-31 13:36:46,064 ERROR 19328 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+pid: 14936
+hostname: DESKTOP-8389VJN
+
+2022-11-02 16:42:13,256 ERROR 14936 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 776810952d521f5110d209ced2e07d2c62590523
+>>>>>>> b5c97aae442980b5bcf75baf9bba8a05f7a0ef80
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+<<<<<<< HEAD
+pid: 4988
+hostname: DESKTOP-EKKF5C0
+>>>>>>> 4d573d0c4e5663be46ef0c0efa9c6c94cf7751c6
+<<<<<<< HEAD
+>>>>>>> cdb958bb49b7cf1fa8caf3b5d90b0bf76faa3944
+=======
+=======
+<<<<<<< HEAD
+pid: 19328
+hostname: ZUORUI
+
+2022-10-31 14:36:53,890 ERROR 19328 nodejs.unhandledExceptionError: read ECONNRESET
+=======
+pid: 14936
+hostname: DESKTOP-8389VJN
+
+2022-11-02 17:56:54,927 ERROR 14936 nodejs.unhandledExceptionError: read ECONNRESET
+>>>>>>> 776810952d521f5110d209ced2e07d2c62590523
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+<<<<<<< HEAD
+pid: 19328
+hostname: ZUORUI
+
+2022-10-31 15:28:55,384 ERROR 19328 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19328
+hostname: ZUORUI
+
+2022-10-31 16:01:16,585 ERROR 19328 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19328
+hostname: ZUORUI
+
+2022-10-31 19:32:27,533 ERROR 19328 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19328
+hostname: ZUORUI
+
+2022-11-01 13:52:20,446 ERROR 15668 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15668
+hostname: ZUORUI
+
+2022-11-01 17:30:42,933 ERROR 15668 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15668
+hostname: ZUORUI
+
+2022-11-02 10:08:34,262 ERROR 7864 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7864
+hostname: ZUORUI
+
+2022-11-02 10:11:31,351 ERROR 7864 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7864
+hostname: ZUORUI
+
+2022-11-02 10:14:48,841 ERROR 7864 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7864
+hostname: ZUORUI
+
+2022-11-02 10:20:58,991 ERROR 17804 [-/::1/-/7ms GET /follow?112] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:45:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"https://getman.cn","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17804
+hostname: ZUORUI
+
+2022-11-02 10:21:35,430 ERROR 17804 [-/::1/-/3ms GET /follow] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:45:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"https://getman.cn","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17804
+hostname: ZUORUI
+
+2022-11-02 10:22:25,405 ERROR 17536 [-/::1/-/7ms GET /follow?112] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:46:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"https://getman.cn","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17536
+hostname: ZUORUI
+
+2022-11-02 11:15:09,932 ERROR 3532 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3532
+hostname: ZUORUI
+
+2022-11-02 11:16:07,007 ERROR 3532 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3532
+hostname: ZUORUI
+
+2022-11-02 13:30:45,554 ERROR 3532 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3532
+hostname: ZUORUI
+
+2022-11-02 13:36:27,071 ERROR 3532 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3532
+hostname: ZUORUI
+
+2022-11-02 14:37:41,344 ERROR 3532 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3532
+hostname: ZUORUI
+
+2022-11-02 15:29:03,640 ERROR 11028 [-/127.0.0.1/-/6ms GET /follow?status=0&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\app\controller\getAuthorController.js:46:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\23724\Desktop\jianshu\jianshu\jianshu_server\node_modules\koa-static-cache\index.js:41:56
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11028
+hostname: ZUORUI
+
+2022-11-02 15:55:52,348 ERROR 3532 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3532
+hostname: ZUORUI
+
+2022-11-02 16:11:06,982 ERROR 4244 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4244
+hostname: ZUORUI
+
+2022-11-02 16:11:08,887 ERROR 4244 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4244
+hostname: ZUORUI
+
+2022-11-02 16:11:12,966 ERROR 4244 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4244
+hostname: ZUORUI
+
+2022-11-02 17:02:19,807 ERROR 4244 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4244
+hostname: ZUORUI
+=======
+pid: 14936
+hostname: DESKTOP-8389VJN
+
+2022-11-02 18:58:38,388 ERROR 14936 nodejs.ClusterClientNoResponseError: client no response in 61473ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 14936
+hostname: DESKTOP-8389VJN
+>>>>>>> 776810952d521f5110d209ced2e07d2c62590523
+
+2022-11-03 11:27:49,455 ERROR 11496 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11496
+hostname: ZUORUI
+>>>>>>> b5c97aae442980b5bcf75baf9bba8a05f7a0ef80
+>>>>>>> b5e79874477ba8b9498488d13bfa4e317bf1f5b0
+
+2022-11-03 10:24:30,489 ERROR 15052 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15052
+hostname: DESKTOP-8389VJN
+
+2022-11-03 11:43:50,664 ERROR 15052 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15052
+hostname: DESKTOP-8389VJN
+
+2022-11-03 13:31:42,827 ERROR 15052 nodejs.ClusterClientNoResponseError: client no response in 3664786ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 15052
+hostname: DESKTOP-8389VJN
+
+2022-11-03 14:04:41,590 ERROR 15052 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15052
+hostname: DESKTOP-8389VJN
+
+2022-11-04 17:04:04,031 ERROR 11380 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11380
+hostname: DESKTOP-8389VJN
+
+2022-11-04 17:04:06,513 ERROR 11380 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11380
+hostname: DESKTOP-8389VJN
+
+2022-11-04 18:04:31,912 ERROR 11380 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11380
+hostname: DESKTOP-8389VJN
+
+2022-11-04 19:07:29,342 ERROR 11380 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11380
+hostname: DESKTOP-8389VJN
+
+2022-11-05 15:43:29,984 ERROR 17524 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17524
+hostname: LAPTOP-E1C9GTF0
+
+2022-11-05 16:52:34,304 ERROR 15816 [-/127.0.0.1/-/4ms GET /follow?status=1&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+
+2022-11-05 16:52:41,693 ERROR 15816 [-/127.0.0.1/-/1ms GET /follow?status=1&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+
+2022-11-05 16:52:47,962 ERROR 15816 [-/127.0.0.1/-/2ms GET /follow?status=1&follower=4&user=1] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+
+2022-11-05 16:53:02,303 ERROR 15816 [-/127.0.0.1/-/1ms GET /follow?status=1&follower=4&user=2] nodejs.ReferenceError: eee is not defined
+    at GetAuthorController.follow (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\app\controller\getAuthorController.js:47:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15816
+hostname: DESKTOP-8389VJN
+
+2022-11-06 12:16:46,275 ERROR 13096 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13096
+hostname: DESKTOP-8389VJN
+
+2022-11-06 13:18:52,629 ERROR 12428 nodejs.ClusterClientNoResponseError: client no response in 410820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 12428
+hostname: DESKTOP-8389VJN
+
+2022-11-06 13:22:02,844 ERROR 12428 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12428
+hostname: DESKTOP-8389VJN
+
+2022-11-06 14:22:57,416 ERROR 12428 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12428
+hostname: DESKTOP-8389VJN
+
+2022-11-06 15:44:35,758 ERROR 12428 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12428
+hostname: DESKTOP-8389VJN
+
+<<<<<<< HEAD
+2022-11-07 17:52:13,772 ERROR 18528 nodejs.ClusterClientNoResponseError: client no response in 885255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\联想\Desktop\project\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 18528
+hostname: DESKTOP-A3915B5
+=======
+2022-11-07 13:06:11,144 ERROR 4616 nodejs.ClusterClientNoResponseError: client no response in 157774ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 4616
+hostname: DESKTOP-8389VJN
+
+2022-11-07 13:34:29,094 ERROR 4616 nodejs.ClusterClientNoResponseError: client no response in 896953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 4616
+hostname: DESKTOP-8389VJN
+
+2022-11-07 18:07:02,814 ERROR 2948 nodejs.ClusterClientNoResponseError: client no response in 130145ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\Huaqing\VUE\简书vue\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 2948
+hostname: DESKTOP-8389VJN
+
+2022-11-07 19:15:43,449 ERROR 2948 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2948
+hostname: DESKTOP-8389VJN
+>>>>>>> b6f5510184a64ebe6b49c6e29f47f8414f394b44
+
+>>>>>>> 3c40c0fdbaf621a9bac604fc27f1e099d053e2aa
+=======
+>>>>>>> 451387cfdaee3c30670df161b8c8f03636f3f72b
+=======
+>>>>>>> 2b2e653ce590d12dd43be5554e7f66d0a436be0c
+2022-11-08 13:37:42,705 ERROR 7148 nodejs.ClusterClientNoResponseError: client no response in 1462005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 7148
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:05,926 ERROR 20452 [-/127.0.0.1/-/278ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:17,772 ERROR 20452 [-/127.0.0.1/-/10ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:20,768 ERROR 20452 [-/127.0.0.1/-/3ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:22,091 ERROR 20452 [-/127.0.0.1/-/4ms POST /selectinfo.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'on clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user inner join follow on uid = user_id where follower_id ='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'on clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user inner join follow on uid = user_id where follower_id ='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:10:30,375 ERROR 20452 [-/127.0.0.1/-/2ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid='1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid='1'"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:11:40,725 ERROR 20452 [-/127.0.0.1/-/3ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:13:28,471 ERROR 20452 [-/127.0.0.1/-/3ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:13:33,201 ERROR 20452 [-/127.0.0.1/-/2ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+
+2023-01-12 19:13:35,768 ERROR 20452 [-/127.0.0.1/-/8ms POST /getall.do] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:65:19)
+    at C:\Users\qxy\Desktop\jianshu\jianshu\jianshu_server\node_modules\co\index.js:54:5
+    sql: select * from user where uid=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'uid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where uid=NULL"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5173","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20452
+hostname: LAPTOP-E1C9GTF0
+

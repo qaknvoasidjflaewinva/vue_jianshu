@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@wangeditor/editor": "^5.1.22",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "moment": "^2.29.4",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.2"
+  }
+}
